@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BS-Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logoo.png" class="img-fluid"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="px-2 search"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn1 px-3" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <section class="main">
+      <div class="container">
+        <div class="main-info">
+          <div class="text-md-start text-center">
+            <p>Organic Products</p>
+            <h1>Fresh Organic</h1>
+            <div class="main-line"></div>
+            <p class="lorems">
+              Organic food is food and drinks produced by methods complying<br />
+              with the standars of organic farming. Standards vary worldwide,<br />but
+              organic farming features practices that cycle resources.
+            </p>
+            <div class="">
+              <button class="mbtn1">Read More</button>
+              <button class="mbtn2">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="about-info">
+          <div class="text-md-start text-center">
+            <p>Organic Products</p>
+            <h1>About Our Organic</h1>
+            <div class="about-line"></div>
+            <p class="lorems">
+              Organic food is food and drinks produced by methods complying<br />
+              with the standars of organic farming. Standards vary worldwide,<br />but
+              organic farming features practices that cycle resources.
+            </p>
+            <button class="abtn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section id="boxes">
+      <div class="container my-5">
+        <div>
+          <div class="boxes-caption text-light text-center">
+            <h6>Green Agriculture</h6>
+            <h1>Welcome to Organic</h1>
+            <div class="boxes-line"></div>
+            <p>
+              We call it ultimate because we simply believe every website We
+              call it ultimate<br />
+              because we simply believe every website needs to be well presented
+              at the
+            </p>
+          </div>
+
+          <div class="row text-center g-4 m-3">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-shop-window"></i></span>
+                  <h2 class="card-title py-2">Always Fresh</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-flower2"></i></span>
+                  <h2 class="card-title py-2">Always Fresh</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-gift"></i></span>
+                  <h2 class="card-title py-2">Always Fresh</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products">
+      <div class="container mt-5">
+        <div>
+          <div class="products-caption text-dark text-center">
+            <h6>Green Agriculture</h6>
+            <h1>Our Best Products</h1>
+            <div class="products-line"></div>
+            <p>
+              We call it ultimate because we simply believe every website We
+              call it ultimate<br />
+              because we simply believe every website needs to be well presented
+              at the
+            </p>
+          </div>
+
+          <div class="row text-start g-2 m-3">
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-half"></i></span>
+                  </div>
+
+                  <img src="img/orange.jpg" class="img-fluid" />
+                  <h4 class="card-title">Orange</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 50.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star"></i></span>
+                  </div>
+
+                  <img src="img/papaya.jpg" class="img-fluid" />
+                  <h4 class="card-title">Papaya</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 99.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-half"></i></span>
+                  </div>
+
+                  <img src="img/melon.jpg" class="img-fluid" />
+                  <h4 class="card-title">Melon</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 75.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star"></i></span>
+                  </div>
+
+                  <img src="img/strawnb.jpg" class="img-fluid" />
+                  <h4 class="card-title">Straberry</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 150.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-half"></i></span>
+                  </div>
+                  <img src="img/Pom.jpg" class="img-fluid" />
+                  <h4 class="card-title">Red Annar</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 69.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-3 mt-5">
+              <div class="card">
+                <div class="card-body py-4">
+                  <div class="stars text-end">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star"></i></span>
+                  </div>
+                  <img src="img/manngo.jpg" class="img-fluid" />
+                  <h4 class="card-title">Mango</h4>
+                  <p class="quantity text-secondary">2 x 454g / 16oz</p>
+                  <p class="card-text price">PHP 199.00</p>
+                  <div class="text-center">
+                    <button class="prod-btn">ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button class="mt-5 prod-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discount -->
+    <section class="discount">
+      <div class="container text-center">
+        <div class="d-md-flex justify-content-between text-light">
+          <h1>
+            <span><i class="bi bi-cash pe-4"></i></span>Discount Coupon For -
+            20% :PWEB01424
+          </h1>
+          <button class="dbtn m-3">More Offer</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section id="boxes2">
+      <div class="container my-5">
+        <div>
+          <div class="boxes-caption text-dark text-center">
+            <h6>Green Agriculture</h6>
+            <h1>Welcome to Organic</h1>
+            <div class="boxes2-line"></div>
+            <p>
+              We call it ultimate because we simply believe every website We
+              call it ultimate<br />
+              because we simply believe every website needs to be well presented
+              at the
+            </p>
+          </div>
+
+          <div class="row text-center g-4 m-3">
+            <div class="col-xl-3 col-md-6">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-truck"></i></span>
+                  <h3 class="card-title py-2">Free Shipping</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet.<br />
+                    Lorem, ipsum dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-patch-check"></i></span>
+                  <h3 class="card-title py-2">Organic Verified</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet.<br />
+                    Lorem, ipsum dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-wallet"></i></span>
+                  <h3 class="card-title py-2">Secure Payment</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet.<br />
+                    Lorem, ipsum dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card">
+                <div class="card-body pb-5 pt-4">
+                  <span><i class="bi bi-person-plus"></i></span>
+                  <h3 class="card-title py-2">Friendly Support</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet.<br />
+                    Lorem, ipsum dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arrivals -->
+    <section class="arrivals py-5">
+      <div class="container pb-5 my-4">
+        <div>
+          <h1 class="mb-5">New Arrivals</h1>
+
+          <div class="row">
+            <div class="col-lg-6 align-items-center p-3 ">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/lemon.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>Fresh Lemon</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 30.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 align-items-center p-3">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/chilli.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>Spicy Chili</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 99.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 align-items-center p-3">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/garlic.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>Garlic</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 99.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-lg-6 align-items-center p-3">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/raw-onions.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>White Onion</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 150.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 align-items-center p-3">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/mint.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>Oregano</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 45.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 align-items-center p-3">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <img src="img/gApple.jpg" class="img-fluid w-50 me-4" />
+
+                  <div>
+                    <div class="a-stars">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star"></i></span>
+                    </div>
+                    <h4>Green Apple</h4>
+                    <p>2 x 454g / 16oz</p>
+                    <p class="lead">PHP 200.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+
+            <div class="contact-info">
+
+              <div class="contact-caption text-light text-start">
+                <h6 class="pt-5">Green Agriculture</h6>
+                <h1>Welcome to Organic</h1>
+                <div class="contact-line"></div>
+                <p>
+                  We call it ultimate because we simply believe every website We
+                  call it ultimate
+                  because we simply believe every website needs to be well presented
+                  at the
+                </p>
+              </div>
+    
+              <div class="row mt-5">
+                <div class="col-lg-6">
+                  <div class="d-flex c-details mb-4">
+                    <span><i class="bi bi-house-fill"></i></span>
+                    <p class="ps-4">143 CR De Jesus St. San Vicente, Sta. Maria, Bulacan</p>
+                  </div>
+                  <div class="d-flex c-details mb-4">
+                    <span><i class="bi bi-pencil-fill"></i></span>
+                    <p class="ps-4">143 CR De Jesus St. San Vicente, Sta. Maria, Bulacan</p>
+                  </div>
+                  <div class="d-flex c-details mb-4">
+                    <span><i class="bi bi-telephone-fill"></i></span>
+                    <p class="ps-4">+639-206-634-621</p>
+                  </div>
+                  <div class="d-flex c-details mb-4">
+                    <span><i class="bi bi-envelope"></i></span>
+                    <p class="ps-4">emailexample@gmail.com</p>
+                  </div>
+                </div>
+                <!-- form -->
+                <div class="col-lg-6">
+                  <div class="inputs">
+                    <label for="name" class="form-label"></label>
+                    <input type="name" class="form-control" id="name" placeholder="Name...">
+                  </div>
+                  <div class="inputs">
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email...">
+                  </div>
+                  <div class="inputs">
+                    <label for="phone" class="form-label"></label>
+                    <input type="text" class="form-control" id="phone" placeholder="Phone...">
+                  </div>
+                  <div class="inputs">
+                    <label for="message" class="form-label"></label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Message..."></textarea>
+                  </div>
+                  <button class="cbtn">Send Now</button>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer bg-dark py-4">
+      <div class="container text-center">
+        <div class="d-lg-flex d-md-block justify-content-between footer-div">
+          <h4>Copyright 2023 @ Organic | Organic Store by R.Amador</h4>
+          <div class="footer-icons">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-google"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

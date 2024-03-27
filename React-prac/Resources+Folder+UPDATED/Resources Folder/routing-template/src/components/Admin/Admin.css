@@ -1,0 +1,13 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed; /* Add this line */
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 25%; /* Set the width to your desired percentage, adjust as needed */
+}
+

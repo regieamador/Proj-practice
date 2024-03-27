@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container1{
+  padding: 150px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardComp-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.jokesContainer{
+  text-align: center;
+}
+
+.banner{
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  padding: 15px 0px;
+  cursor: default;
+}
+
+.travelItems{
+  margin-top: 50px;
+  padding: 50px 20px;
+}
+
+.travel-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.travelContainer{
+  padding: 0;
+}
+.locNlink a{
+  text-decoration: none;
+  color: gray;
+}
+
+.Memes{
+  width: 100%;
+}
+.memesNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgb(126, 126, 242);
+}
+
+.nav-brand{
+  display: flex;
+  align-items: center;
+}
+.nav-brand img{
+  margin-right: 30px;
+}
+
+.imageDiv{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.textTop{
+  position: absolute;
+  top: 10px;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 
+    -3px -3px 0 black, 3px -3px 0 black,
+    -3px 3px 0 black, 3px 3px 0 black;
+}
+.textBot{
+  position: absolute;
+  bottom: 10px;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 
+    -3px -3px 0 black, 3px -3px 0 black,
+    -3px 3px 0 black, 3px 3px 0 black;
+}
+
+.cardx{
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.star{
+  display: block;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+.box{
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid black;
+  color: blue;
+  margin-bottom: 50px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.fun-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+.fun-header .navbrand{
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+.fun-header .navbrand h3{
+  margin-left: 10px;
+}
+
+#modeIcons{
+  font-size: 50px;
+  cursor: pointer;
+}
+.BodyFunFact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BodyFunFact h1{ 
+  font-size: 70px;
+  margin: 20px 0px;
+}
+.BodyFunFact ul{ 
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.FunFactDiv{
+  border-bottom: 1.75px solid black;
+}
+
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numss{
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  margin: 30px 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.numss h6{
+  font-size: 30px;
+}
+
+
+
+/* QUIZ GAME CSS */
+.quizStart{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quizStart h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: rgb(30, 30, 107);
+}
+.quizStart p{
+  font-size: 24px;
+  color: rgb(30, 30, 107);
+}
+.quizStart button{
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: rgb(30, 30, 107);
+  color: white;
+  margin-top: 10px;
+  border: 1px solid rgb(30, 30, 107);
+  border-radius: 15px;
+}
+
+.quizBody{
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question h1{
+  font-size: 30px;
+}
+
+.question .choices{
+  display: flex;
+  justify-content: space-between;
+}
+
+.question .choices p{
+  font-size: 24px;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+  width: 250px;
+  text-align: center;
+}
+
+.btnCheck{
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: rgb(30, 30, 107);
+  color: white;
+  margin-top: 10px;
+  border: 1px solid rgb(30, 30, 107);
+  border-radius: 15px;
+}
+
+
+/* black */
+.question-card {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.answer-option {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #f0f0f0;
+}
+
+.incorrect {
+  background-color: #ffcccc;
+}
+
+.correct-feedback {
+  margin-top: 1rem;
+  color: green;
+}
+
+.incorrect-feedback {
+  margin-top: 1rem;
+  color: red;
+}

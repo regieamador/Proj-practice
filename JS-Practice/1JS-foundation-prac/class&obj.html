@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes N Object</title>
+</head>
+<body>
+    <p id="model">asd</p>
+    <p id="model1">asd</p>
+
+
+    <script>
+        class Name{
+            constructor(fName, lName){
+                this.fName = fName;
+                this.lName = lName;
+                this.nickname = function(){
+                    return "Using Method: " + this.fName + " " +this.fName;
+                }           
+            }
+            get fullName(){
+                    return "Using Getter: " + this.fName + " " + this.lName;
+                }
+
+            intro(fName, lName) {
+                return "HI! " + this.fName + " "  + this.lName;
+            }
+        }
+
+        let x = new Name("Regie", "Amador");
+
+        document.getElementById("model").innerHTML = x.fullName.toUpperCase();
+        document.getElementById("model1").innerHTML = x.nickname().toLowerCase();
+    </script>
+</body>
+</html>

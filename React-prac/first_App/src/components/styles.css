@@ -1,0 +1,35 @@
+/* Header */
+.header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.taskList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-toggle{
+    border: 1px solid black;
+}
+
+#dropdown{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tagBtn{
+    border: 1px solid black;
+    font-weight: 500;
+}
+/* Body */
+.deleteBtn{
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 16px;
+}

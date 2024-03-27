@@ -1,0 +1,463 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+.nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.nav-item a:hover{
+    color: #04BC0F;
+    transition: all 0.4s;
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid #04BC0F;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.btn1{
+    color: white;
+    background-color: #04BC0F;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    border-left: none;
+}
+.btn1:hover{
+    background-color: #7bea6c;
+    transition: all 0.4s;
+}
+
+.main{
+    background: url(img/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main .container{
+    width: 100%;
+    height: 100vh;  
+}
+.main .container .main-info{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-line{
+    display: inline-block;
+    border: 4px solid #04BC0F;
+    width: 20%;
+    margin-bottom: 20px;
+}
+.main p:nth-child(1){
+    font-size: 24px;
+}
+
+.main .lorems{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main h1{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.mbtn1{
+    height: 55px;
+    border-radius: 30px;
+    background-color: #04BC0F;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    font-size: 18px;
+}
+.mbtn1:hover{
+    background-color: #000000;
+    transition: all 0.4s;
+}
+
+.mbtn2{
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    color: #04BC0F;
+    padding: 10px 30px;
+    border: 2px solid #04BC0F;
+    font-size: 18px;
+}
+.mbtn2:hover{
+    color: #000000;
+    border: 2px solid #000000;
+    transition: all 0.4s;
+}
+
+/* about */
+#about{
+    background: url(img/about.jpg)no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: end;
+}
+.abtn{
+    height: 55px;
+    border-radius: 30px;
+    background-color: #04BC0F;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    font-size: 18px;
+}
+.abtn:hover{
+    background-color: #000000;
+    transition: all 0.4s;
+}
+.about-line{
+    display: inline-block;
+    border: 4px solid #04BC0F;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+#about p:nth-child(1){
+    font-size: 24px;
+}
+
+#about .lorems{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#about h1{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1372px){
+    .about-info{
+        background-color: rgb(0, 0, 0, 0.6);
+        color: rgb(255, 255, 255);
+        padding-right: 20px;
+        transition: all 0.7s;
+    }
+    .about-line{
+        border: 4px solid white;
+        transition: all 0.7s;
+    }
+    .abtn{
+        background-color: black;
+        border: none;
+        transition: all 0.7s;
+    }
+    .abtn:hover{
+        background-color: white;
+        color: black;
+        transition: all 0.7s;
+    }
+}
+
+/* Boxes */
+#boxes{
+    background: #04BC0F;
+    padding: 50px 0px;
+}
+#boxes .card{
+    border-radius: 0px;
+}
+#boxes span{
+    font-size: 45px;
+    color: #7bea6c;
+}
+.boxes-line{
+    display: inline-block;
+    width: 20%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+#boxes h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#boxes h6{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+#boxes p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+/* Products */
+#products{
+    background: #F8F9FA;
+    padding: 50px 0px;
+}
+#products .card{
+    border-radius: 0px;
+}
+.products-line{
+    display: inline-block;
+    width: 20%;
+    border: 3px solid #04BC0F;
+    margin-bottom: 20px;
+}
+#products h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#products h6{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+#products p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#products .price{
+    font-size: 18px;
+    font-weight: 400;
+}
+#products .quantity{
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+
+#products .prod-btn{
+    background-color: #04BC0F;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #04BC0F;
+    margin-bottom: 10px;
+}
+#products .prod-btn:hover{
+    background-color: white;
+    color: #04BC0F;
+    transition: all 0.4s;
+}
+#products .card{
+    border: 1px dotted gray;
+    background: white;
+}
+
+.stars{
+    color: gold;
+    font-size: 22px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* discount */
+.discount{
+    background: #04BC0F;
+    padding: 50px 0px;
+}
+.discount .d-flex{
+    padding: 20px 100px;
+    align-items: center;
+}
+.dbtn{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    min-width: max-content;
+    max-height: 55px;
+}
+.dbtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: all 0.4s;
+}
+
+/* Boxes2 */
+#boxes2{
+    background: #F8F9FA;
+    padding: 50px 0px;
+}
+#boxes2 .card{
+    border-radius: 0px;
+}
+#boxes2 span{
+    font-size: 45px;
+    color: #000000;
+}
+.boxes2-line{
+    display: inline-block;
+    width: 20%;
+    border: 3px solid #04BC0F;
+    margin-bottom: 20px;
+}
+#boxes2 h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#boxes2 h6{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+#boxes2 p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+/* Arrivals */
+.arrivals{
+    background: #F8F9FA;;
+}
+.a-stars{
+    font-size: 22px;
+    color: gold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.arrivals h4{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.arrivals p:nth-child(1){
+    color: gray;
+}
+.arrivals .lead{
+    font-weight: 500;
+}
+.arrivals .d-flex{
+    background: white;
+}
+.arrivals .card{
+    border: none;
+}
+
+/* Contact */
+.contact{
+    background: url(img/contact.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.contact-info{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-line{
+    display: inline-block;
+    width: 35%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.contact h6{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.contact p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.contact .inputs input{
+    border-radius: 0px;
+    margin-top: -5px;
+}
+
+textarea{
+    resize: none;
+}
+
+.cbtn{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px 60px;
+    border: none;
+    margin-bottom: 10px;
+    max-height: 55px;
+    margin-top: 30px;
+}
+.cbtn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: all 0.4s;
+}
+
+.c-details span{
+    font-size: 28px;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.c-details p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact{
+        height: 120vh;
+        background: #04BC0F;
+    }
+  }
+
+  /* footer */
+  .footer-div{
+    padding: 25px 0px;
+  }
+  .footer h4{
+    color: #04BC0F;
+    cursor: pointer;
+  }
+  .footer .footer-icons a{
+    color: white;
+    font-size: 24px;
+    margin: 0px 5px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+
+  .footer .footer-icons a:hover{
+    border: 1px solid #04BC0F;
+    background-color: #04BC0F;
+    transition: all 0.4s;
+  }

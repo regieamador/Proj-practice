@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px 10%;
+}
+.dog-api .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-api .card-body h1{
+    background: rgb(128, 128, 128, 0.6);
+    padding: 5px 30px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.dog-api .card-body img{
+    width: 550px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.dog-api .card-body .btn1{
+    width: 550px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+
+
+.heroes-api .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroes-api .card-body h1{
+    background: rgb(128, 128, 128, 0.6);
+    padding: 5px 30px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.heroes-api .card-body img{
+    width: 550px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.heroes-api .card-body .btn1{
+    width: 550px;
+    height: 450px;
+    margin-bottom: 20px;
+}

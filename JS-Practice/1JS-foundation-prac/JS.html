@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body>
+    <h1>Practice using classes and object</h1>
+    <h1>JavaScript Practice</h1>
+
+
+    <p class="text1">55</p>
+    <p class="text1">14</p>
+
+    <p class="result"></p>
+    <p class="addNum"></p><br>
+
+    <p>objects</p>
+    <p id="obj1" class="objs"></p>
+    <p id="obj2" class="objs"></p>
+
+    <h6>Arrays</h6>
+    <p id="arr1"></p>
+
+    <p id="date"></p>
+
+    <button onclick="showMessage()">Click Me</button>
+    <button ondblclick="showDate()">Show Date</button>
+
+    <script>
+        const cars = ["BMW", "GTR", "Porsche", "L300", "Ranger", "Civic"];
+        let carsL =  cars.length;
+
+        document.getElementById("arr1").innerText = cars[carsL-1];
+
+        let x, y, z;
+        x = parseFloat(document.getElementsByClassName("text1")[0].innerHTML);
+        y = parseFloat(document.getElementsByClassName("text1")[1].innerHTML);
+
+        z = add(x, y);
+        let addResult = add(5, 5);
+
+        const person1 = {
+            name: "Regie",
+            age: 22,
+            gender: "male",
+            infos: function () {
+                return this.name + " age:" + this.age;
+            }
+        };
+
+        function showMessage() {
+            let s = person1.name.toUpperCase();
+
+            document.getElementsByClassName("result")[0].innerHTML = z;
+            document.getElementsByClassName("addNum")[0].innerHTML = addResult;
+            document.getElementById("obj1").innerHTML = s;
+            document.getElementById("obj2").innerHTML = person1.infos();
+        }
+
+        function add(n1, n2) {
+            return n1 + n2;
+        }
+
+        function showDate() {
+            document.getElementById("date").innerHTML = Date();
+        }
+        
+        console.log("Hello, world!sdadda");
+
+        let numbers = [1, 2, 3, 41231, 5];
+
+        console.log("Using 'forEach':");
+
+        numbers.forEach(function (number) {
+            console.log(number);
+        });
+    </script>
+</body>
+</html>
+
+
+intro(fName, lName) {
+    return fName + " "  + lName;
+}

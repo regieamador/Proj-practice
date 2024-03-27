@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem;
+}
+
+.header .nav-list ul {
+  display: flex;
+}
+.header .nav-list{
+    margin-right: 50px;
+}
+.header img {
+  width: 200px;
+}
+.header .nav-list ul a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.header .nav-list ul a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: orange;
+    display: block;
+    margin: 5px 0px;
+    transition: 0.5s;
+  }
+
+  .header .nav-list ul a:hover::after {
+    width: 100%;
+  }
+
+.content {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  cursor: default;
+}
+.content h1 {
+  font-size: 75px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 15px;
+  letter-spacing: 1px;
+}
+.content button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.content button:hover {
+  background-color: rgb(247, 141, 4);
+  border: 1px solid rgb(247, 141, 4);
+}
+
+/* ------------------------------COURSES------------------------------------- */
+
+.courses{
+  padding: 0rem 10rem;
+  cursor: default;
+}
+.course-title {
+  text-align: center;
+  margin-top: 8rem;
+}
+.course-title h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.course-title p {
+  font-size: 18px;
+}
+.course-lvl {
+  display: flex;
+  text-align: center;
+  margin-top: 4rem;
+}
+.course-divs {
+  margin: 0px 40px;
+  background-color: rgb(255, 233, 214);
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+}
+.course-divs:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+.course-divs h3 {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.course-divs p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* ----------------------------CAMPUSES ------------------------------ */
+.campuses{
+  margin-top: 8rem;
+  padding: 0rem 10rem;
+}
+.campus-title{
+  text-align: center;
+}
+.campus-title h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.campus-title p{
+  font-size: 18px;
+  margin-bottom: 4rem;
+}
+.course-pics {
+  display: flex;
+  justify-content: center;
+}
+.campus{
+  width: 400px;
+  margin: 0px 40px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.campus img{
+  width: 100%;
+  border-radius: 10px;
+}
+.campus .campus-name{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  transition: background-color 0.5s;
+}
+.campus .campus-name:hover{
+  background-color: rgba(226, 0, 0, 0.7);
+}
+.campus-name h1{
+  font-size: 24px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+.campus-name:hover h1{
+  bottom: 50%;
+  opacity: 1;
+}
+
+/* -----------------------------------FACILITIES-------------------------------------- */
+.facilities{
+  margin-top: 8rem;
+  padding: 0rem 10rem;
+}
+.facility-title{
+  text-align: center;
+}
+.facility-title h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.facility-title p{
+  font-size: 18px;
+  margin-bottom: 4rem;
+}
+.div-facilities{
+  display: flex;
+  justify-content: space-between;
+}
+.facilities-info{
+  width: 600px;
+  height: 300px;
+  padding: 0px 50px;
+}
+.facilities-info img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.facilities-info h3{
+  font-size: 24px;
+  margin: 20px 0px;
+}
+.facilities-info p{
+  font-size: 16px;
+}
+
+/* -----------------------------------COMMENTS-------------------------------------- */
+.reviews {
+  margin-top: 18rem;
+  padding: 0rem 10rem;
+}
+.review-title {
+  text-align: center;
+}
+.review-title h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.review-title p {
+  font-size: 18px;
+  margin-bottom: 4rem;
+}
+.comments {
+  display: flex;
+  cursor: pointer;
+}
+.user {
+  background-color: rgb(252, 227, 205);
+  display: flex;
+  margin: 10px 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.user img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.user p{
+  font-size: 18px;
+}
+.user h3{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.user h6{
+  font-size: 18px;
+}
+/* -------------------------contact us----------------------------- */
+.contact{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 15rem 11.5rem 7rem 11.5rem;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.contact h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.contact button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.contact button:hover {
+  background-color: rgb(247, 141, 4);
+  border: 1px solid rgb(247, 141, 4);
+
+}
+
+/* ---------------------------about us and footerr --------------------------- */
+.aboutus{
+  text-align: center;
+ }
+ .aboutus h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+ }
+ .aboutus h6{
+  font-size: 18px;
+  font-weight: 100;
+ }
+ .aboutus p{
+  margin-top: 40px;
+  font-size: 18px;
+  margin-bottom: 5rem;
+ }
